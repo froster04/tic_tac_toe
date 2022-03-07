@@ -1,6 +1,3 @@
-#ON PART FIVE of coding spot tutorial
-
-
 import pygame ,sys
 import numpy as np
 
