@@ -78,7 +78,7 @@ def check_win(player):
             return True
 
     for row in range(B_ROW):
-        if board[0][row] == player and board[1][row] == player and board[2][row] == player:
+        if board[row][0] == player and board[row][1] == player and board[row][2] == player:
             draw_horizontal_win_line(row, player)
             return True
 
